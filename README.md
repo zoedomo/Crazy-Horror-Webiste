@@ -16,4 +16,4 @@ If any of the fields are not filled out or if the email is not valid or already 
 
 The code starts a session and then checks if the session has been set. If the session has been set, the session_destroy() function is called to destroy the current session. After destroying the session, the code redirects the user to the index.php page using the header() function and then terminates the script execution using the exit() function. The purpose of this is to log out the user by destroying their session. This is a common practice in web applications where users need to be authenticated to access certain features or content. By destroying the session, the user is logged out and their session data is cleared, making it necessary for them to log in again if they want to access restricted content.
 
-***Note this website is through MAMP localhost:8888***
+***Note this website is through MAMP localhost:8888 and is not currently live***
